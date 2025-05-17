@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="180.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="730.0" prefWidth="180.0">
+         <children>
+            <VBox prefHeight="80.0" prefWidth="160.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                  <Icon content="ACCOUNT_BALANCE" prefHeight="63.0" prefWidth="20.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="509.0" prefWidth="180.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Tablero">
+                     <graphic>
+                        <Icon content="HOME" />
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" text="Transaccion">
+                     <graphic>
+                        <Icon content="ACCOUNT_BALANCE_WALLET" />
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" text="Accounts">
+                     <graphic>
+                        <Icon content="ACCOUNT_CIRCLE" />
+                     </graphic>
+                  </Button>
+                  <Line endX="120.0" />
+                  <Button mnemonicParsing="false" text="Perfil">
+                     <graphic>
+                        <Icon content="VIEW_AGENDA" />
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" text="Salir" textFill="WHITE">
+                     <graphic>
+                        <Icon content="UNDO" />
+                     </graphic>
+                  </Button>
+               </children></VBox>
+            <VBox layoutY="610.0" prefHeight="120.0" prefWidth="180.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Reporte de error" />
+                  <Label text="Unde aqui, para saber tus erores o sugerencias" />
+                  <Button mnemonicParsing="false" text="Reportar">
+                     <graphic>
+                        <Icon content="DO_NOT_DISTURB" />
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children></AnchorPane>
+   </children>
+</VBox>
